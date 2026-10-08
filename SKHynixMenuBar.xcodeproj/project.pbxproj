@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A565A37110DF6CDBAA46322 /* TrendDisplayFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD042903A7BCC4136CB683 /* TrendDisplayFormatter.swift */; };
+		17C9404157C06BB8C8957948 /* SKHynixMenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7C5E80A9171CB9DDBBF9C /* SKHynixMenuBarApp.swift */; };
+		23CE5F05C638BFADE674C188 /* TrendCandleHoverSelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D476196C6875E476272ACA2 /* TrendCandleHoverSelectorTests.swift */; };
+		32CD67D029F01FACFFAD2061 /* TickerSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3BA03B42C2C3FA7886E677 /* TickerSymbol.swift */; };
+		3E93C82BD24AC438A27399D8 /* TickerSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B090E9EB4E773587426C5B /* TickerSelection.swift */; };
+		49B5B33AD87E640DBB1BA1F2 /* TrendPopoverDismissalPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68FE4CEC2A8EFF182095F6 /* TrendPopoverDismissalPolicyTests.swift */; };
+		4F7E6E63ECBE95A5C411B2A2 /* RemotePriceHistoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F91E03BB9598883C1EF57 /* RemotePriceHistoryClient.swift */; };
+		5173C0FD2B872F1F98184BFD /* RemoteTickerQuoteDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F7ECFD1104EBB1B2F42D6D /* RemoteTickerQuoteDecodingTests.swift */; };
+		58BD80C953A8431EA1561572 /* TrendPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D236519642CE991D5BEEC /* TrendPreferences.swift */; };
+		5DD5214EF22EFCE5DC79495B /* SKHynixRemotePriceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813CA1CFC7E0A6B694ED8949 /* SKHynixRemotePriceClient.swift */; };
+		61A23EEA5F895A9E01435331 /* TrendChartDomainCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E23BC386B841EB0DAD5E157 /* TrendChartDomainCalculatorTests.swift */; };
+		61BC07FDBA074D0022AB059A /* PriceDisplayFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5FA865462B8F4EF341564 /* PriceDisplayFormatter.swift */; };
+		6865956E3B90E910A8A050CB /* TickerPanelPositionPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9A1C4B266DF7480DE097DB /* TickerPanelPositionPreferences.swift */; };
+		72BBB3B51C2D2C47736C24E6 /* TrendRangeAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29E56865475785479731C33 /* TrendRangeAvailability.swift */; };
+		7308908B31463E256F7A6E4A /* TickerSelectionPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB65F83FE4F35B985C2A46 /* TickerSelectionPreferences.swift */; };
+		77D1AF492923EDFCEF2829E2 /* PriceDisplayFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3842A49A349C02F40B3B7B /* PriceDisplayFormatterTests.swift */; };
+		7C2D13FAEA9E28A95AA1282F /* TrendCandleHoverSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498A19E67EBA8EDD7F87621 /* TrendCandleHoverSelector.swift */; };
+		7DBBFFADA83C5FAE86933F75 /* TrendDisplayFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9B76C9A5EB0116CEBD7A3 /* TrendDisplayFormatterTests.swift */; };
+		8160536CDF82BB3035F72F43 /* PriceHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F3B719DB77F49AD0577D2 /* PriceHistoryTests.swift */; };
+		86E8F6FF1D554EC865A7B97D /* TrendPopoverDismissalPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527F70DFD2B9A4F5C555E62 /* TrendPopoverDismissalPolicy.swift */; };
+		8EE9FC42240E82FDF263DC8A /* ContractSearchStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69AA5C782995282A80C5997 /* ContractSearchStoreTests.swift */; };
+		99B8C508CA1E6153273FF28B /* PriceCandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943EEBB9A416BC26106CE420 /* PriceCandle.swift */; };
+		9CDA102C389C1F389CB1E32C /* TickerPanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CDDDA3A56EA921A2FC440B /* TickerPanelLayout.swift */; };
+		9D000D4CF91057E291B478C6 /* MirrorEndpointProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F704E6DC7E668FD69491C /* MirrorEndpointProvider.swift */; };
+		A01917C67BCF7C32D13D4F39 /* TickerSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693A79855BBEA3250F2267E7 /* TickerSelectionTests.swift */; };
+		A9617CBF0E5CBD4CFB240291 /* TickerPanelLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7581B42EA6C833FFBC8C9 /* TickerPanelLayoutTests.swift */; };
+		B0697998E68C83FC0353F0B5 /* PriceMenuBarTitleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5B7D5B1422C03040852B45 /* PriceMenuBarTitleRenderer.swift */; };
+		C28D47153AB59D162F3B291A /* ChartInteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55492CF697FF0747DF208C2 /* ChartInteractionView.swift */; };
+		CCE6C8530B73AE5D2BE112C6 /* TrendPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6159CE411C25BD720282F /* TrendPopoverView.swift */; };
+		CF8C8D77672004F9A6D541D2 /* ContractSymbolProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76729106F4412E1566685E /* ContractSymbolProvider.swift */; };
+		D0C61BEB91CCDA9E8DAAEA36 /* TrendChartDomainCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578356E3E0BBEC664C2E402 /* TrendChartDomainCalculator.swift */; };
+		D1B096B33258C7EB97D5DDFE /* DraggableTickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9653021C8CB8482574B314 /* DraggableTickerView.swift */; };
+		D43B8F393F6AA292247FB13B /* PriceTickerStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779153B17F6A1ECB7671A148 /* PriceTickerStoreTests.swift */; };
+		D746677FE51467139FA22F62 /* PriceTrendStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B139464F38AEDD9F9F1D0 /* PriceTrendStore.swift */; };
+		DAED2C711243D63521D052C8 /* PriceTrendStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F942C83BB2B5756D2BBB1 /* PriceTrendStoreTests.swift */; };
+		DD1DDC66973FA5DFF69345FB /* ContractSearchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879AB3EB323169AF1BB1ADD /* ContractSearchStore.swift */; };
+		E365C4FD7420FC4444E60AB1 /* RemoteContractSymbolClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FE08734649534A2A124CBE /* RemoteContractSymbolClient.swift */; };
+		E37DCDF3E30E109ADDCFF4D3 /* LatestPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB24581F2F2D8F8B621BD09A /* LatestPrice.swift */; };
+		E8CAB6F620FD0FD9B2B45325 /* PriceTickerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63215F033DBB53DDEB75CF16 /* PriceTickerStore.swift */; };
+		E967F8AB9EEA60C522DEEAB8 /* PriceRefreshIntervalPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D202835690FBB07B363CFAB7 /* PriceRefreshIntervalPreferences.swift */; };
+		ECA0E87099D97832E5531BD4 /* PriceMenuBarTextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C3F995531969386E5D2183 /* PriceMenuBarTextBuilder.swift */; };
+		F1C6FD7E7123E5B0C36F7B6D /* TickerPanelPositionPreferencesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20C8FA886538F1DC8458965 /* TickerPanelPositionPreferencesTests.swift */; };
+		F81849F4CBFF439F03BF5153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E0DD5AEA8722557CE3148B /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC59A0A6368CC2027BF73BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94794492E78FBDFC93EDE3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F65B42EBB138393BEE1CE8;
+			remoteInfo = SKHynixMenuBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FD042903A7BCC4136CB683 /* TrendDisplayFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendDisplayFormatter.swift; sourceTree = "<group>"; };
+		0498A19E67EBA8EDD7F87621 /* TrendCandleHoverSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendCandleHoverSelector.swift; sourceTree = "<group>"; };
+		08578ECB24965F1E98E3F652 /* SKHynixMenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKHynixMenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB5FA865462B8F4EF341564 /* PriceDisplayFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDisplayFormatter.swift; sourceTree = "<group>"; };
+		0E4F91E03BB9598883C1EF57 /* RemotePriceHistoryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePriceHistoryClient.swift; sourceTree = "<group>"; };
+		318B139464F38AEDD9F9F1D0 /* PriceTrendStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTrendStore.swift; sourceTree = "<group>"; };
+		3AA9B76C9A5EB0116CEBD7A3 /* TrendDisplayFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendDisplayFormatterTests.swift; sourceTree = "<group>"; };
+		3BBB65F83FE4F35B985C2A46 /* TickerSelectionPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerSelectionPreferences.swift; sourceTree = "<group>"; };
+		3D76729106F4412E1566685E /* ContractSymbolProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractSymbolProvider.swift; sourceTree = "<group>"; };
+		400F704E6DC7E668FD69491C /* MirrorEndpointProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorEndpointProvider.swift; sourceTree = "<group>"; };
+		4C68FE4CEC2A8EFF182095F6 /* TrendPopoverDismissalPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendPopoverDismissalPolicyTests.swift; sourceTree = "<group>"; };
+		4D476196C6875E476272ACA2 /* TrendCandleHoverSelectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendCandleHoverSelectorTests.swift; sourceTree = "<group>"; };
+		5BA6159CE411C25BD720282F /* TrendPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendPopoverView.swift; sourceTree = "<group>"; };
+		5C3842A49A349C02F40B3B7B /* PriceDisplayFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDisplayFormatterTests.swift; sourceTree = "<group>"; };
+		63215F033DBB53DDEB75CF16 /* PriceTickerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTickerStore.swift; sourceTree = "<group>"; };
+		67B090E9EB4E773587426C5B /* TickerSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerSelection.swift; sourceTree = "<group>"; };
+		693A79855BBEA3250F2267E7 /* TickerSelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerSelectionTests.swift; sourceTree = "<group>"; };
+		76C3F995531969386E5D2183 /* PriceMenuBarTextBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceMenuBarTextBuilder.swift; sourceTree = "<group>"; };
+		779153B17F6A1ECB7671A148 /* PriceTickerStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTickerStoreTests.swift; sourceTree = "<group>"; };
+		813CA1CFC7E0A6B694ED8949 /* SKHynixRemotePriceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHynixRemotePriceClient.swift; sourceTree = "<group>"; };
+		85F7ECFD1104EBB1B2F42D6D /* RemoteTickerQuoteDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTickerQuoteDecodingTests.swift; sourceTree = "<group>"; };
+		87E0DD5AEA8722557CE3148B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8879AB3EB323169AF1BB1ADD /* ContractSearchStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractSearchStore.swift; sourceTree = "<group>"; };
+		8E23BC386B841EB0DAD5E157 /* TrendChartDomainCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendChartDomainCalculatorTests.swift; sourceTree = "<group>"; };
+		900D236519642CE991D5BEEC /* TrendPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendPreferences.swift; sourceTree = "<group>"; };
+		943EEBB9A416BC26106CE420 /* PriceCandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCandle.swift; sourceTree = "<group>"; };
+		9E5B7D5B1422C03040852B45 /* PriceMenuBarTitleRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceMenuBarTitleRenderer.swift; sourceTree = "<group>"; };
+		A55492CF697FF0747DF208C2 /* ChartInteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInteractionView.swift; sourceTree = "<group>"; };
+		AC913946024472D698224234 /* SKHynixMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKHynixMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20C8FA886538F1DC8458965 /* TickerPanelPositionPreferencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerPanelPositionPreferencesTests.swift; sourceTree = "<group>"; };
+		B8FE08734649534A2A124CBE /* RemoteContractSymbolClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteContractSymbolClient.swift; sourceTree = "<group>"; };
+		BD9653021C8CB8482574B314 /* DraggableTickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableTickerView.swift; sourceTree = "<group>"; };
+		C69AA5C782995282A80C5997 /* ContractSearchStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractSearchStoreTests.swift; sourceTree = "<group>"; };
+		CB6F942C83BB2B5756D2BBB1 /* PriceTrendStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTrendStoreTests.swift; sourceTree = "<group>"; };
+		D202835690FBB07B363CFAB7 /* PriceRefreshIntervalPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRefreshIntervalPreferences.swift; sourceTree = "<group>"; };
+		D578356E3E0BBEC664C2E402 /* TrendChartDomainCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendChartDomainCalculator.swift; sourceTree = "<group>"; };
+		D68F3B719DB77F49AD0577D2 /* PriceHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceHistoryTests.swift; sourceTree = "<group>"; };
+		DAA7581B42EA6C833FFBC8C9 /* TickerPanelLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerPanelLayoutTests.swift; sourceTree = "<group>"; };
+		EB24581F2F2D8F8B621BD09A /* LatestPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestPrice.swift; sourceTree = "<group>"; };
+		EE9A1C4B266DF7480DE097DB /* TickerPanelPositionPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerPanelPositionPreferences.swift; sourceTree = "<group>"; };
+		F29E56865475785479731C33 /* TrendRangeAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendRangeAvailability.swift; sourceTree = "<group>"; };
+		F527F70DFD2B9A4F5C555E62 /* TrendPopoverDismissalPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendPopoverDismissalPolicy.swift; sourceTree = "<group>"; };
+		F6E7C5E80A9171CB9DDBBF9C /* SKHynixMenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHynixMenuBarApp.swift; sourceTree = "<group>"; };
+		F9CDDDA3A56EA921A2FC440B /* TickerPanelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerPanelLayout.swift; sourceTree = "<group>"; };
+		FE3BA03B42C2C3FA7886E677 /* TickerSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerSymbol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A048B7E4A0BE28D9A474308 = {
+			isa = PBXGroup;
+			children = (
+				33D6B565C471281194E9B0D8 /* Sources */,
+				5911C04039EEEFD11041E1EB /* Tests */,
+				8B46FB31FDCE0D2BD13B1F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D6B565C471281194E9B0D8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				87E0DD5AEA8722557CE3148B /* AppDelegate.swift */,
+				F6E7C5E80A9171CB9DDBBF9C /* SKHynixMenuBarApp.swift */,
+				A995A70DDCE04A7C9710D3D6 /* Core */,
+				A39FCA24343C50A53E2BE565 /* Feature */,
+				BD0771D31E1A6C0BE83341F5 /* Infra */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5911C04039EEEFD11041E1EB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C69AA5C782995282A80C5997 /* ContractSearchStoreTests.swift */,
+				5C3842A49A349C02F40B3B7B /* PriceDisplayFormatterTests.swift */,
+				D68F3B719DB77F49AD0577D2 /* PriceHistoryTests.swift */,
+				779153B17F6A1ECB7671A148 /* PriceTickerStoreTests.swift */,
+				CB6F942C83BB2B5756D2BBB1 /* PriceTrendStoreTests.swift */,
+				85F7ECFD1104EBB1B2F42D6D /* RemoteTickerQuoteDecodingTests.swift */,
+				DAA7581B42EA6C833FFBC8C9 /* TickerPanelLayoutTests.swift */,
+				B20C8FA886538F1DC8458965 /* TickerPanelPositionPreferencesTests.swift */,
+				693A79855BBEA3250F2267E7 /* TickerSelectionTests.swift */,
+				4D476196C6875E476272ACA2 /* TrendCandleHoverSelectorTests.swift */,
+				8E23BC386B841EB0DAD5E157 /* TrendChartDomainCalculatorTests.swift */,
+				3AA9B76C9A5EB0116CEBD7A3 /* TrendDisplayFormatterTests.swift */,
+				4C68FE4CEC2A8EFF182095F6 /* TrendPopoverDismissalPolicyTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8B46FB31FDCE0D2BD13B1F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC913946024472D698224234 /* SKHynixMenuBar.app */,
+				08578ECB24965F1E98E3F652 /* SKHynixMenuBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39FCA24343C50A53E2BE565 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				A55492CF697FF0747DF208C2 /* ChartInteractionView.swift */,
+				8879AB3EB323169AF1BB1ADD /* ContractSearchStore.swift */,
+				BD9653021C8CB8482574B314 /* DraggableTickerView.swift */,
+				76C3F995531969386E5D2183 /* PriceMenuBarTextBuilder.swift */,
+				9E5B7D5B1422C03040852B45 /* PriceMenuBarTitleRenderer.swift */,
+				63215F033DBB53DDEB75CF16 /* PriceTickerStore.swift */,
+				318B139464F38AEDD9F9F1D0 /* PriceTrendStore.swift */,
+				F9CDDDA3A56EA921A2FC440B /* TickerPanelLayout.swift */,
+				0498A19E67EBA8EDD7F87621 /* TrendCandleHoverSelector.swift */,
+				D578356E3E0BBEC664C2E402 /* TrendChartDomainCalculator.swift */,
+				02FD042903A7BCC4136CB683 /* TrendDisplayFormatter.swift */,
+				F527F70DFD2B9A4F5C555E62 /* TrendPopoverDismissalPolicy.swift */,
+				5BA6159CE411C25BD720282F /* TrendPopoverView.swift */,
+				F29E56865475785479731C33 /* TrendRangeAvailability.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		A995A70DDCE04A7C9710D3D6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D76729106F4412E1566685E /* ContractSymbolProvider.swift */,
+				EB24581F2F2D8F8B621BD09A /* LatestPrice.swift */,
+				943EEBB9A416BC26106CE420 /* PriceCandle.swift */,
+				0DB5FA865462B8F4EF341564 /* PriceDisplayFormatter.swift */,
+				67B090E9EB4E773587426C5B /* TickerSelection.swift */,
+				FE3BA03B42C2C3FA7886E677 /* TickerSymbol.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BD0771D31E1A6C0BE83341F5 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				400F704E6DC7E668FD69491C /* MirrorEndpointProvider.swift */,
+				D202835690FBB07B363CFAB7 /* PriceRefreshIntervalPreferences.swift */,
+				B8FE08734649534A2A124CBE /* RemoteContractSymbolClient.swift */,
+				0E4F91E03BB9598883C1EF57 /* RemotePriceHistoryClient.swift */,
+				813CA1CFC7E0A6B694ED8949 /* SKHynixRemotePriceClient.swift */,
+				EE9A1C4B266DF7480DE097DB /* TickerPanelPositionPreferences.swift */,
+				3BBB65F83FE4F35B985C2A46 /* TickerSelectionPreferences.swift */,
+				900D236519642CE991D5BEEC /* TrendPreferences.swift */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438A8FB5B4D0E118DC95F76C /* SKHynixMenuBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F363BE27E8E6F19CB3ABB349 /* Build configuration list for PBXNativeTarget "SKHynixMenuBarTests" */;
+			buildPhases = (
+				A259FCBB61DD9EE260215028 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D36F75C9E9D65ACBFCE471 /* PBXTargetDependency */,
+			);
+			name = SKHynixMenuBarTests;
+			packageProductDependencies = (
+			);
+			productName = SKHynixMenuBarTests;
+			productReference = 08578ECB24965F1E98E3F652 /* SKHynixMenuBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1F65B42EBB138393BEE1CE8 /* SKHynixMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFC25237DCAE68EBECA2F62 /* Build configuration list for PBXNativeTarget "SKHynixMenuBar" */;
+			buildPhases = (
+				B138B2380BEC6A2920CA9EC0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKHynixMenuBar;
+			packageProductDependencies = (
+			);
+			productName = SKHynixMenuBar;
+			productReference = AC913946024472D698224234 /* SKHynixMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94794492E78FBDFC93EDE3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C1F65B42EBB138393BEE1CE8 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 33454456FAEA95A31523F7E2 /* Build configuration list for PBXProject "SKHynixMenuBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0A048B7E4A0BE28D9A474308;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F65B42EBB138393BEE1CE8 /* SKHynixMenuBar */,
+				438A8FB5B4D0E118DC95F76C /* SKHynixMenuBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A259FCBB61DD9EE260215028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE9FC42240E82FDF263DC8A /* ContractSearchStoreTests.swift in Sources */,
+				77D1AF492923EDFCEF2829E2 /* PriceDisplayFormatterTests.swift in Sources */,
+				8160536CDF82BB3035F72F43 /* PriceHistoryTests.swift in Sources */,
+				D43B8F393F6AA292247FB13B /* PriceTickerStoreTests.swift in Sources */,
+				DAED2C711243D63521D052C8 /* PriceTrendStoreTests.swift in Sources */,
+				5173C0FD2B872F1F98184BFD /* RemoteTickerQuoteDecodingTests.swift in Sources */,
+				A9617CBF0E5CBD4CFB240291 /* TickerPanelLayoutTests.swift in Sources */,
+				F1C6FD7E7123E5B0C36F7B6D /* TickerPanelPositionPreferencesTests.swift in Sources */,
+				A01917C67BCF7C32D13D4F39 /* TickerSelectionTests.swift in Sources */,
+				23CE5F05C638BFADE674C188 /* TrendCandleHoverSelectorTests.swift in Sources */,
+				61A23EEA5F895A9E01435331 /* TrendChartDomainCalculatorTests.swift in Sources */,
+				7DBBFFADA83C5FAE86933F75 /* TrendDisplayFormatterTests.swift in Sources */,
+				49B5B33AD87E640DBB1BA1F2 /* TrendPopoverDismissalPolicyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B138B2380BEC6A2920CA9EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81849F4CBFF439F03BF5153 /* AppDelegate.swift in Sources */,
+				C28D47153AB59D162F3B291A /* ChartInteractionView.swift in Sources */,
+				DD1DDC66973FA5DFF69345FB /* ContractSearchStore.swift in Sources */,
+				CF8C8D77672004F9A6D541D2 /* ContractSymbolProvider.swift in Sources */,
+				D1B096B33258C7EB97D5DDFE /* DraggableTickerView.swift in Sources */,
+				E37DCDF3E30E109ADDCFF4D3 /* LatestPrice.swift in Sources */,
+				9D000D4CF91057E291B478C6 /* MirrorEndpointProvider.swift in Sources */,
+				99B8C508CA1E6153273FF28B /* PriceCandle.swift in Sources */,
+				61BC07FDBA074D0022AB059A /* PriceDisplayFormatter.swift in Sources */,
+				ECA0E87099D97832E5531BD4 /* PriceMenuBarTextBuilder.swift in Sources */,
+				B0697998E68C83FC0353F0B5 /* PriceMenuBarTitleRenderer.swift in Sources */,
+				E967F8AB9EEA60C522DEEAB8 /* PriceRefreshIntervalPreferences.swift in Sources */,
+				E8CAB6F620FD0FD9B2B45325 /* PriceTickerStore.swift in Sources */,
+				D746677FE51467139FA22F62 /* PriceTrendStore.swift in Sources */,
+				E365C4FD7420FC4444E60AB1 /* RemoteContractSymbolClient.swift in Sources */,
+				4F7E6E63ECBE95A5C411B2A2 /* RemotePriceHistoryClient.swift in Sources */,
+				17C9404157C06BB8C8957948 /* SKHynixMenuBarApp.swift in Sources */,
+				5DD5214EF22EFCE5DC79495B /* SKHynixRemotePriceClient.swift in Sources */,
+				9CDA102C389C1F389CB1E32C /* TickerPanelLayout.swift in Sources */,
+				6865956E3B90E910A8A050CB /* TickerPanelPositionPreferences.swift in Sources */,
+				3E93C82BD24AC438A27399D8 /* TickerSelection.swift in Sources */,
+				7308908B31463E256F7A6E4A /* TickerSelectionPreferences.swift in Sources */,
+				32CD67D029F01FACFFAD2061 /* TickerSymbol.swift in Sources */,
+				7C2D13FAEA9E28A95AA1282F /* TrendCandleHoverSelector.swift in Sources */,
+				D0C61BEB91CCDA9E8DAAEA36 /* TrendChartDomainCalculator.swift in Sources */,
+				0A565A37110DF6CDBAA46322 /* TrendDisplayFormatter.swift in Sources */,
+				86E8F6FF1D554EC865A7B97D /* TrendPopoverDismissalPolicy.swift in Sources */,
+				CCE6C8530B73AE5D2BE112C6 /* TrendPopoverView.swift in Sources */,
+				58BD80C953A8431EA1561572 /* TrendPreferences.swift in Sources */,
+				72BBB3B51C2D2C47736C24E6 /* TrendRangeAvailability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D36F75C9E9D65ACBFCE471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F65B42EBB138393BEE1CE8 /* SKHynixMenuBar */;
+			targetProxy = DC59A0A6368CC2027BF73BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09A44E39D16C99DBB9764DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bsmk.skhynixmenubar.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKHynixMenuBar.app/Contents/MacOS/SKHynixMenuBar";
+			};
+			name = Debug;
+		};
+		09CE55E752C9DE6A3431F406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bsmk.skhynixmenubar;
+				PRODUCT_NAME = SKHynixMenuBar;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		177AC0344F9FF19B2765CD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bsmk.skhynixmenubar;
+				PRODUCT_NAME = SKHynixMenuBar;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83622AE28C4599C2E301231D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.bsmk.skhynixmenubar.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKHynixMenuBar.app/Contents/MacOS/SKHynixMenuBar";
+			};
+			name = Release;
+		};
+		86F5BD3790D7AFBFD1E9621A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		DAEBBB54FF19DD2A4DF003CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33454456FAEA95A31523F7E2 /* Build configuration list for PBXProject "SKHynixMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEBBB54FF19DD2A4DF003CA /* Debug */,
+				86F5BD3790D7AFBFD1E9621A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCFC25237DCAE68EBECA2F62 /* Build configuration list for PBXNativeTarget "SKHynixMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177AC0344F9FF19B2765CD15 /* Debug */,
+				09CE55E752C9DE6A3431F406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F363BE27E8E6F19CB3ABB349 /* Build configuration list for PBXNativeTarget "SKHynixMenuBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A44E39D16C99DBB9764DC5 /* Debug */,
+				83622AE28C4599C2E301231D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E94794492E78FBDFC93EDE3E /* Project object */;
+}
